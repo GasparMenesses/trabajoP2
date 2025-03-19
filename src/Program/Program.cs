@@ -13,7 +13,7 @@ public class Division
 =======
 public class Substraction
 {
-    // Esta clase implementa la operación resta
+    // Esta clase implementa operación resta
     public static int Substract(int a, int b)
     {
         return a - b;
