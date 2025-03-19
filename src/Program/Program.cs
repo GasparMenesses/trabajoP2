@@ -2,6 +2,15 @@
 Console.WriteLine(Substraction.Substract(10, 1));
 Console.WriteLine(Multiplication.Multiply(3, 3));
 Console.WriteLine(Division.Divide(18, 2));
+ feature-subtraction
+public class Substraction
+{
+    // Esta clase implementa la operación resta
+    public static int Substract(int a, int b)
+    {
+        return a - b;
+    }
+}
 //Agrego suma
 public class Addition
 {
@@ -10,3 +19,4 @@ public class Addition
         return a + b;
     }
 }
+main
