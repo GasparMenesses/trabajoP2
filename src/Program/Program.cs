@@ -2,7 +2,17 @@
 Console.WriteLine(Substraction.Substract(10, 1));
 Console.WriteLine(Multiplication.Multiply(3, 3));
 Console.WriteLine(Division.Divide(18, 2));
- feature-subtraction
+feature-multiplication
+//Agrego el arte de la multiplicación
+public class Multiplication
+{
+    public static int Multiply(int a, int b)
+    {
+        return a * b;
+    }
+}
+
+ feature-subtraction;
 public class Substraction
 {
     // Esta clase implementa la operación resta
@@ -20,3 +30,4 @@ public class Addition
     }
 }
 main
+ main
