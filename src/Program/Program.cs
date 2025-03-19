@@ -4,6 +4,8 @@ Console.WriteLine(Multiplication.Multiply(3, 3));
 Console.WriteLine(Division.Divide(18, 2));
 public class Division
 {
+    
+    // Esta clase implementa la operación division
     public static double Divide(int a, int b)
     {
         return (double)a / b;
